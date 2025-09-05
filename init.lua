@@ -13,6 +13,9 @@ require("nvim-treesitter.install").compilers = { "clang", "gcc" }
 vim.treesitter.language.register("glsl", "vsh")
 vim.treesitter.language.register("glsl", "fsh")
 
+-- allow CTRL-backspace in Insert mode
+vim.api.nvim_set_keymap("i", "<C-H>", "<C-W>", { noremap = true })
+
 -- set default working dir in /repos
 --
 --if vim.fn.expand('%:p') == ""
