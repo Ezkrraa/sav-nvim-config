@@ -9,9 +9,9 @@ return {
       require("catppuccin").setup({
         background = {
           light = "latte",
-          dark = "mocha",
+          dark = "frappe",
         },
-        -- transparent_background = false,
+        transparent_background = vim.fn.has("macunix") == 0,
         integrations = {
           -- enable integrations here
           cmp = true,
