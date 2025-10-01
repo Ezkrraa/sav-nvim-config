@@ -2,7 +2,8 @@
 require("config.lazy")
 
 -- set clang as default C compiler
-require("nvim-treesitter.install").compilers = { "clang", "gcc" }
+-- this is no longer allowed?
+-- require("nvim-treesitter.install").compilers = { "clang", "gcc" }
 
 -- register GLSL file types
 -- vim.lsp.enable("glsl_analyzer")
