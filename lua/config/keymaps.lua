@@ -19,5 +19,5 @@ Map("t", "<C-l>", "<cmd>wincmd l<CR>")
 vim.keymap.set("n", "N", "<leader>ca", { noremap = true })
 
 -- allow moving selected text UP-DOWN
-Map("v", "J", ":m '>+1<CR>gv=gv")
-Map("v", "K", ":m '<-2<CR>gv=gv")
+Map("v", "<C-j>", ":m '>+1<CR>gv=gv")
+Map("v", "<C-k>", ":m '<-2<CR>gv=gv")
