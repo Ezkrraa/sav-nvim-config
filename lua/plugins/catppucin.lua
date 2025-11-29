@@ -11,7 +11,7 @@ return {
           light = "latte",
           dark = "frappe",
         },
-        transparent_background = vim.fn.has("macunix") == 0,
+        -- transparent_background = vim.fn.has("macunix") == 0,
         integrations = {
           -- enable integrations here
           cmp = true,
